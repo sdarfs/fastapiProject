@@ -6,9 +6,9 @@ from database import SessionLocal
 import models
 
 app = FastAPI()
-class Par(BaseModel):
-    param_1:int
-    param_2: str
+#class Par(BaseModel):
+#    param_1:int
+#    param_2: str
 class Task(BaseModel):
     task_uuid: int
     description: str

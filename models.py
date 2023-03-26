@@ -1,14 +1,14 @@
 from sqlalchemy.orm import relationship
 
 from database import Base
-from sqlalchemy import String, Integer, Column, Text, ForeignKey, JSON
+from sqlalchemy import Integer, Column, Text
 
 
-class Par(Base):
-    __tablename__='param'
-    id = Column(Integer, primary_key = True)
-    param_1 = Column(Integer)
-    param_2 = Column(String)
+#class Par(Base):
+#   __tablename__='param'
+#   id = Column(Integer, primary_key = True)
+#   param_1 = Column(Integer)
+#   param_2 = Column(String)
 
 class Task(Base):
     __tablename__ = 'tasks'
